@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/1dd82d8c-d87b-49aa-ad1e-d2dfe6b53e97" />
+<img width="2053" height="2048" alt="image" src="https://github.com/user-attachments/assets/7000b6ea-bf87-4a18-9419-3b625539b40f" />
 
 # University of Prishtina
 

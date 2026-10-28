@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="dataset/phase3/assets/logo_up.png" alt="University of Prishtina" width="150"/>
+<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/1dd82d8c-d87b-49aa-ad1e-d2dfe6b53e97" />
 
 # University of Prishtina
 

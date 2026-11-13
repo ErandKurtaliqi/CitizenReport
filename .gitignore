@@ -1,0 +1,15 @@
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+artifacts/
+cache/
+coverage/
+coverage.json
+frontend/dist/
+backend/data/
+.env
+frontend/.env
+backend/.env
+deployments/*.json
+!deployments/.gitkeep
+.env.test-accounts

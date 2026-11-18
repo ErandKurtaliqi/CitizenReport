@@ -42,9 +42,9 @@ function fileUrl(cid) {
 function isDemoReport(cid = "") { return cid.startsWith("seed-demo"); }
 
 function Photo({ cid, label }) {
-  const [failed, setFailed] = useState(false);
+  const [failedCid, setFailedCid] = useState(null);
   const url = fileUrl(cid);
-  return <figure className="ai-photo"><figcaption>{label}</figcaption>{url && !failed ? <img src={url} alt={label} onError={() => setFailed(true)} /> : <div className="photo-missing">{cid ? "Foto demo pa skedar" : "Pa foto"}</div>}</figure>;
+  return <figure className="ai-photo"><figcaption>{label}</figcaption>{url && failedCid !== cid ? <img src={url} alt={label} onError={() => setFailedCid(cid)} /> : <div className="photo-missing">{cid ? "Foto demo pa skedar" : "Pa foto"}</div>}</figure>;
 }
 
 function AiBadge({ ai }) {

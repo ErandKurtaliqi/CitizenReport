@@ -325,7 +325,7 @@ function Detail() {
     fetch(`${API}/dashboard`).then((r) => r.ok ? r.json() : null).then(setStats).catch(() => {});
     fetch(`${API}/categories`).then((r) => r.ok ? r.json() : []).then(setPublicCategories).catch(() => {});
   }, [id, fromChain]);
-  const item = fromChain || publicItem;
+  const item = fromChain || (publicItem?.id === Number(id) ? publicItem : null);
   const categories = chainCategories.length ? chainCategories : publicCategories;
   const now = chainTime || stats?.chainTime || 0;
   if (!item) return <div className="empty compact">Kërkesa nuk u gjet.</div>;

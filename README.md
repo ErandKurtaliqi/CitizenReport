@@ -113,6 +113,7 @@ Me Kubo lokal aktiv në portin 5001, API përdor automatikisht endpoint-in `/api
 
 ```bash
 npm test
+npm --prefix backend test
 npm run coverage
 npm run build
 ```
